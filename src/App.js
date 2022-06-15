@@ -1,12 +1,21 @@
 import "./header.css"
 import React from "react";
+import Home from "./pages/Home.js"
+import About from "./pages/About.js"
+import Work from "./pages/Work.js"
 import Header from "./Header.js"
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 function App() {
   return(
-    <div className="App">
+    <Router>
       <Header/>
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/About" element={<About />}/>
+        <Route path="/Work" element={<Work />}/>
+      </Routes>
+    </Router>
   )
 }
 
