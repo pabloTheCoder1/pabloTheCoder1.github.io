@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(25, 24, 24);
+  }
+
+.header ul{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.header li{
+    list-style: none;
+}
+
+.header a{
+    text-decoration: none;
+    color: #03C03C;
+    font-family: 'Courier New', monospace;
+}
+
+.header{
+    top: 0;
+    left: 0;
+    background-color: #413F42;
+    padding: 10px;
+    margin-right: 0!important;
+}
+
+@media (max-width: 500px) {
+    .header ul{
+        width: 80%;
+    }
+}
