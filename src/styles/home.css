@@ -4,12 +4,14 @@ EDIT ON
 body{
   background-size: cover;
 }
-.container{
+
+.presentation{
   display: inline-block;
+  margin: 0;
   margin-top: 200px;
-  margin-left: 40px;
-  color: #03C03C;
-  font-family: 'Courier New', monospace;
+  margin-left: 10%;
+  color: #00ff4c;
+  font-family: 'Gotham Black', sans-serif;
 }
 
 .typed-out{
@@ -18,59 +20,52 @@ body{
   white-space: nowrap;
   animation: 
     typing 3s forwards;
-  font-size: 2rem;
-  width: 0;
-}
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  font-size: 5vw;
+  font-weight: 800;
 }
 
-.container p{
+@keyframes typing {
+  from { width: 0 }
+  to{ width: 100%}
+}
+
+.presentation p{
   line-height: 30px;
+  font-size: 17px;
 }
 
 .profileInfos{
-  margin-bottom: 200px;
-  margin-right: 100px;
-  margin-top: 100px;
+  margin-top: 200px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 30px;
+  display: flex;
+  background-color: #413F42;
 }
 
 .profileInfos p{
-  color: #03C03C;
-  width: 200px;
-  line-height: 20px;
-  font-family: 'Courier New', monospace;
-  text-align: center;
-}
-
-.home img{
-  width: 200px;
-  border-radius: 10px;
-  border: 1px solid #413F42;
-}
-
-.home{
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  color: #00ff4c;
   width: 100%;
+  line-height: 30px;
+  font-size: 17px;
+  font-family: 'Gotham Black', sans-serif;
 }
 
-@media (max-width: 800px) {
-  .home{
-    display: block;
+.profileInfos img{
+  margin-left: 30px;
+  width: 15%;
+}
+
+@media (max-width: 1000px){
+  .profileInfos img{
+    width: 20%;
   }
-  .typed-out{
-    font-size: 1.3rem;
-  }
-  .container{
-    text-align: center;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  .profileInfos{
-    margin-left: 25%;
-    margin-right: 25%;
+}
+
+@media (max-width: 900px){
+  .profileInfos img{
+    width: 30%;
   }
 }

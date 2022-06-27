@@ -9,6 +9,7 @@ import About from "./pages/About.js"
 import Work from "./pages/Work.js"
 import Contact from "./pages/Contact.js"
 import Header from "./Header.js"
+import Closer from "./pages/Closer.js"
 
 function App() {
   return(
@@ -20,6 +21,7 @@ function App() {
         <Route path="/Work" element={<Work />}/>
         <Route path="/Contact" element={<Contact />}/>
       </Routes>
+      <Closer/>
     </Router>
   )
 }
