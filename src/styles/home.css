@@ -57,15 +57,3 @@ body{
   margin-left: 30px;
   width: 15%;
 }
-
-@media (max-width: 1000px){
-  .profileInfos img{
-    width: 20%;
-  }
-}
-
-@media (max-width: 900px){
-  .profileInfos img{
-    width: 30%;
-  }
-}
