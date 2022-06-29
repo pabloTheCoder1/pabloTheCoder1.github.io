@@ -8,7 +8,8 @@ body{
 .presentation{
   display: inline-block;
   margin: 0;
-  margin-top: 200px;
+  margin-top: 170px;
+  margin-bottom: 110px;
   margin-left: 10%;
   color: #00ff4c;
   font-family: 'Gotham Black', sans-serif;
@@ -32,28 +33,52 @@ body{
 .presentation p{
   line-height: 30px;
   font-size: 17px;
+  color: #ffffff;
 }
 
 .profileInfos{
-  margin-top: 200px;
   margin-left: 10%;
   margin-right: 10%;
-  padding: 30px;
   display: flex;
-  background-color: #413F42;
+  align-items: center;
 }
 
 .profileInfos p{
-  display: flex;
-  align-items: center;
   color: #00ff4c;
-  width: 100%;
   line-height: 30px;
   font-size: 17px;
   font-family: 'Gotham Black', sans-serif;
+  border: 1px solid white;
+  padding: 30px;
 }
 
 .profileInfos img{
-  margin-left: 30px;
-  width: 15%;
+  width: 200px;
+  margin-left: 50px;
+}
+
+.social img {
+  width: 30px;
+  margin: 10px;
+}
+
+.social{
+  width: 50px;
+  height: 180px;
+  margin-left: 15%;
+  margin-top: 130px;
+  background-color: #413F42;
+  border-radius: 15px;
+}
+
+section{
+  display: flex
+}
+
+.logos .logo2, .logos .logo3{
+  margin-top: 20px;
+}
+
+.home{
+  margin-bottom: 150px;
 }

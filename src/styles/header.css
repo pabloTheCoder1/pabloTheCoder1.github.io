@@ -1,8 +1,21 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     background-color: rgb(25, 24, 24);
   }
+
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #413F42;
+    padding: 10px;
+}
 
 .header ul{
     display: flex;
@@ -18,32 +31,14 @@ body{
     text-decoration: none;
     color: #00ff4c;
     font-family: 'Gotham Light', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .header{
     top: 0;
     left: 0;
-    background-color: #413F42;
     padding: 10px;
     margin-right: 0!important;
-}
-
-.closer{
-    top: 0;
-    left: 0;
-    padding: 10px;
-    margin-right: 0!important;
-}
-
-.logos{
-    display: flex;
-    justify-content: center;
-    margin-top: 150px;
-}
-.logos img{
-    width: 30px;
-    margin: 2%;
 }
 
 @media (max-width: 500px) {
