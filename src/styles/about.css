@@ -1,9 +1,13 @@
+.about{
+    margin-bottom: 200px;
+}
+
 .titleAbout{
     display: flex;
     align-items: center;
   }
   
-  .titleAbout p{
+.titleAbout p{
     color: #00ff4c;
     font-family: 'Gotham Black', sans-serif;
     font-size: 3vw;
@@ -19,6 +23,70 @@
     margin-right: 10%;
   }
 
-.about{
-    margin-bottom: 700px;
+.summary{
+    margin-left: 10%;
+    margin-right: 50px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
 }
+
+.summary-box{
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Gotham Black', sans-serif;
+    margin: 30px;
+}
+
+.summary-box section{
+    cursor: pointer;
+}
+
+.summary-box section:hover{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.about-page{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.school-box, .sport-box, .extra-box{
+    border: 1px solid white;
+    margin-right: 15%;
+}
+
+.paragraphs p{
+    color: #00ff4c;
+    font-family: 'Gotham Black', sans-serif;
+    margin: 30px;
+    line-height: 30px;
+}
+
+.summary-box section{
+    display: flex;
+    align-items: center;
+}
+
+.summary-box section img{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.school-box.hidden{
+    display: none;
+}
+
+.sport-box.hidden{
+    display: none;
+}
+
+.extra-box.hidden{
+    display: none;
+}
+
+
+
+
