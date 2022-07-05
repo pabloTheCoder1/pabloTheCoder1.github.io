@@ -1,6 +1,7 @@
 .about{
-    margin-bottom: 200px;
+    margin-bottom: 130px;
 }
+
 
 .titleAbout{
     display: flex;
@@ -27,8 +28,11 @@
     margin-left: 10%;
     margin-right: 50px;
     border: 1px solid white;
+    box-shadow: 0 0 20px #00ff4c;
     display: flex;
     align-items: center;
+    margin-bottom: 200px;
+    height: 180px;
 }
 
 .summary-box{
@@ -49,12 +53,13 @@
 .about-page{
     margin-top: 60px;
     display: flex;
-    align-items: center;
 }
 
 .school-box, .sport-box, .extra-box{
     border: 1px solid white;
+    box-shadow: 0 0 20px #00ff4c;
     margin-right: 15%;
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .paragraphs p{
@@ -87,6 +92,37 @@
     display: none;
 }
 
+.sectionAbout{
+    display: flex;
+    align-items: center;
+}
+.gradPic,.servePic, .soundcloudPic{
+    width: 20%;
+    margin-right: 30px;
+}
+
+.servePic{
+    max-height: 130px;
+}
 
 
+.dronePic{
+    margin-left: 30px;
+    width: 30%;
+    max-height: 130px;
+}
 
+.summary-box .selector.selected{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.sectionAbout a{
+    font-family: 'Gotham Black', sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    display: flex;
+}
+
+#awards img{
+    max-height: 100px;
+}

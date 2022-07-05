@@ -49,6 +49,7 @@ body{
   font-size: 17px;
   font-family: 'Gotham Black', sans-serif;
   border: 1px solid white;
+  box-shadow: 0 0 20px #00ff4c;
   padding: 30px;
 }
 

@@ -3,6 +3,7 @@ import React from "react";
 import "./styles/header.css"
 import './styles/home.css';
 import './styles/about.css';
+import './styles/work.css';
 
 import Home from "./pages/Home.js"
 import About from "./pages/About.js"
