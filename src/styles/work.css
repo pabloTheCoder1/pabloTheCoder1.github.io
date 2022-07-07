@@ -32,8 +32,10 @@
     opacity: 10;
 }
 
-button {
+a button{
     margin-left: 40px;
+}
+button {
     --green: #00ff4c;
     font-size: 15px;
     padding: 0.7em 2.7em;
@@ -76,6 +78,7 @@ button:hover:before {
     margin-top: 100px;
     font-family: 'Gotham Black', sans-serif;
     list-style: none;
+    margin-bottom: 110px;
 }
 
 .bar{
@@ -118,4 +121,36 @@ button:hover:before {
 
 .development{
     width: 75%;
+}
+
+h1{
+    color: #00ff4c;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 500px) {
+    .workSection, .pablosnetwork{
+        display:inline-block;
+        vertical-align:middle;
+        text-align: center;
+    }
+    .pablosnetwork p{
+        margin: 0;
+        padding: 0;
+    }
+    .work{
+       width: 100%;
+       display:inline-block;
+       vertical-align:middle;
+    }
+    .workSection a img{
+        margin: 0;
+        margin-right: 30px;
+    }
+    .workSection div a button{
+        margin-top: 40px;
+    }
+    .workSection{
+        width: 100%;
+    }
 }

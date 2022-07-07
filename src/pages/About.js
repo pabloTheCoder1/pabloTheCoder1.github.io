@@ -81,7 +81,7 @@ const About = () => {
               </p>
             <img src={serve} alt="" className='servePic'/>
           </div>
-          <div className='sectionAbout'>
+          <div className='sectionAbout' id='sport2'>
             <img src={dronePic} alt="" className='dronePic' />
             <p>
               About a couple years ago I got into video-editing, interest that I sperimented by making videos 
@@ -110,7 +110,7 @@ const About = () => {
             </p>
             <img src={math} alt="" className='soundcloudPic'/>
           </div>
-          <div className='sectionAbout'>
+          <div className='sectionAbout' id="coding">
             <img src={replycode} alt="" className='dronePic' />
             <p>
               This year I also attended a famous coding competition, called Reply Code Challenge, me 

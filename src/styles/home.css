@@ -1,8 +1,8 @@
 HTML CSSResult Skip Results Iframe
 EDIT ON
 
-body{
-  background-size: cover;
+body, html{
+  width: 100%;
 }
 
 .presentation{
@@ -66,13 +66,13 @@ body{
 .social{
   width: 50px;
   height: 180px;
-  margin-left: 15%;
+  margin-left: 10%;
   margin-top: 130px;
   background-color: #413F42;
   border-radius: 15px;
 }
 
-section{
+.sezione{
   display: flex
 }
 
@@ -82,4 +82,34 @@ section{
 
 .home{
   margin-bottom: 150px;
+}
+
+@media (max-width: 400px) {
+  .social{
+    display: none;
+  }
+  .home{
+    margin-left: 5%;
+    width: 100%;
+  }
+  .typed-out{
+    font-size: 35px;
+  }
+  .profileInfos{
+    display: table;
+  }
+  .infoCenter{
+    width: 100%;
+  }
+  .profileInfos p{
+    margin-left: 0%;
+    margin-right: 0%;
+
+    width: 100%;
+  }
+  .profileInfos img{
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 40px;
+  }
 }

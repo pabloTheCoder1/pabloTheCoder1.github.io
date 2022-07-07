@@ -1,7 +1,10 @@
+body, html {
+    position: absolute;
+   }
+
 .about{
     margin-bottom: 130px;
 }
-
 
 .titleAbout{
     display: flex;
@@ -11,7 +14,7 @@
 .titleAbout p{
     color: #00ff4c;
     font-family: 'Gotham Black', sans-serif;
-    font-size: 3vw;
+    font-size: 35px;
     font-weight: 800;
     margin-left: 10%;
     margin-right: 2%;
@@ -22,6 +25,7 @@
     height: 1px;
     background-color: rgb(255, 255, 255);
     margin-right: 10%;
+    width: 100%;
   }
 
 .summary{
@@ -102,14 +106,14 @@
 }
 
 .servePic{
-    max-height: 130px;
+    margin-top: 30px;
 }
 
 
 .dronePic{
     margin-left: 30px;
     width: 30%;
-    max-height: 130px;
+
 }
 
 .summary-box .selector.selected{
@@ -125,4 +129,61 @@
 
 #awards img{
     max-height: 100px;
+}
+
+@media (max-width: 500px){
+    .about-page{
+        display: block;
+    }
+    .sectionAbout{
+        display:inline-block;
+        text-align:center;
+        vertical-align:middle;
+    }
+    .sectionAbout p div a{
+        display:inline-block;
+        text-align:center;
+        vertical-align:middle;
+    }
+    .gradPic,.servePic, .soundcloudPic{
+        max-width: 200px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    #sport2{
+        display: flex;
+        flex-flow: column;
+    }
+    #sport2 p{
+        order: 1;
+    }
+    .dronePic{
+        order: 2;
+    }
+    .school-box,.extra-box,.sport-box{
+        margin: 0;
+    }
+    .soundcloudPic{
+        margin-bottom: 30px;
+    }
+    .about{
+       margin-left: 10%;
+       width: 100%;
+    }
+    #coding{
+        display: flex;
+        flex-flow: column;
+    }
+    #coding p{
+        order: 1;
+    }
+    #coding img{
+        order: 2;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+    .gradPic{
+        margin-bottom: 30px;
+        width: 300px;
+    }
 }

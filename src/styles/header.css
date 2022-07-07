@@ -5,6 +5,8 @@ html {
 body{
     margin: 0;
     padding: 0;
+    top: 0;
+    bottom: 0;
     background-color: rgb(25, 24, 24);
   }
 
@@ -67,5 +69,6 @@ a:active:after {
 @media (max-width: 500px) {
     .header ul{
         width: 80%;
+        margin-right: 10%;
     }
 }

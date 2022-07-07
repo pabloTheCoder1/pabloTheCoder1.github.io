@@ -7,7 +7,7 @@ import facebook from "./pictures/facebook.png"
 const Home = () => {
   return (
     <div className='home'>
-      <section>
+      <div className='sezione'>
         <div className="presentation">
           <div className="typed-out">Hello world! I'm Pablo.</div>
           <p>I'm a 18 years old Italian web developer, <br/> 
@@ -23,7 +23,8 @@ const Home = () => {
               <img src={facebook} alt="" className='logo3'/></a>
           </div>
         </div>
-      </section>
+      </div>
+      <div className='infoCenter'>
       <div className="profileInfos">
         <p>I started coding when I was 16, from programming with hardwares like Arduino 
           I learned the love I feel for these cryptic and mysterious languages we can use to communicate with 
@@ -32,6 +33,7 @@ const Home = () => {
           my skills in libriaries like React js and frameworks like Django.
         </p>
         <img src={profilePic} alt="profilePic" />
+      </div>
       </div>
     </div>
   )
