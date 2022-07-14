@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.864ec16e.css",
+    "main.js": "/static/js/main.a50d074c.js",
+    "static/js/787.058ca375.chunk.js": "/static/js/787.058ca375.chunk.js",
+    "static/media/pablosnetwork.jpg": "/static/media/pablosnetwork.27615c158fb0be1b2f51.jpg",
+    "static/media/dronePic.jpg": "/static/media/dronePic.bf109d2099cb28bc8133.jpg",
+    "static/media/mathkangaroo.jpg": "/static/media/mathkangaroo.ef26094c025d02ff4fab.jpg",
+    "static/media/profilePic.jpg": "/static/media/profilePic.cf336d425f2995b4e0ba.jpg",
+    "static/media/soundcloud.jpg": "/static/media/soundcloud.23d1e2a1594e34df3c5d.jpg",
+    "static/media/replycode.jpg": "/static/media/replycode.db1272e78390db9729f4.jpg",
+    "static/media/graduation.jpg": "/static/media/graduation.fecc66f6fd5885d3bb5e.jpg",
+    "static/media/serve.jpg": "/static/media/serve.f4c0a6f31a539be3db87.jpg",
+    "static/media/medal.png": "/static/media/medal.1f3d0fe15c3319c1aa01.png",
+    "static/media/instagram.png": "/static/media/instagram.34ea1a1d60bdd8e4451c.png",
+    "static/media/tennis.png": "/static/media/tennis.3ad07d17459f8aad312e.png",
+    "static/media/mail.png": "/static/media/mail.5abdcf842d15f3252416.png",
+    "static/media/gradCap.png": "/static/media/gradCap.85d3806737b73f93a616.png",
+    "static/media/facebook.png": "/static/media/facebook.f4785b90e3e61a985b2f.png",
+    "index.html": "/index.html",
+    "main.864ec16e.css.map": "/static/css/main.864ec16e.css.map",
+    "main.a50d074c.js.map": "/static/js/main.a50d074c.js.map",
+    "787.058ca375.chunk.js.map": "/static/js/787.058ca375.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.864ec16e.css",
+    "static/js/main.a50d074c.js"
+  ]
+}
